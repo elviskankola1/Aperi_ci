@@ -22,4 +22,8 @@ class Pages extends CI_Controller
         $this->load->view('errors/404');
         $this->load->view('templates/footer');
     }
+
+     public function test(){
+
+     };
 }
